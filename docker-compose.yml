@@ -25,5 +25,5 @@ services:
     image: postgres:15.2
     environment:
       - POSTGRES_DB=henrybookstoredb
-      - POSTGRES_USER=henrybookstoreuserZ
+      - POSTGRES_USER=henrybookstoreuser
       - POSTGRES_PASSWORD=henrybookstorepass
