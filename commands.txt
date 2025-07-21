@@ -1,0 +1,2 @@
+docker-compose run --rm app bash -c "django-admin startproject app ."
+docker-compose run --rm app bash -c "python manage.py startapp final"
