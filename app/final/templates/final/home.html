@@ -1,1 +1,12 @@
-<h1>This is the home page</h1>
+{% extends 'final/base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5 pt-3">
+        <h2>Henry Bookstore Inventory Management System</h2>
+    </div>
+{% endblock %}
