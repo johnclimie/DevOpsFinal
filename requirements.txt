@@ -2,3 +2,4 @@ Django
 django-bootstrap5
 django-tinymce
 psycopg2-binary
+uWSGI
